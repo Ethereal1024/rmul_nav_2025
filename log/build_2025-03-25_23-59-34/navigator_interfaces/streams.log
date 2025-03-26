@@ -1,0 +1,230 @@
+[0.017s] Invoking command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ /usr/bin/cmake /home/ethereal/rm_2025/rmul_nav_2025/src/Action/navigator_interfaces -DCMAKE_INSTALL_PREFIX=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces
+[0.174s] -- The C compiler identification is GNU 11.4.0
+[0.256s] -- The CXX compiler identification is GNU 11.4.0
+[0.267s] -- Detecting C compiler ABI info
+[0.328s] -- Detecting C compiler ABI info - done
+[0.334s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.335s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.340s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.405s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.405s] -- Detecting CXX compile features
+[0.405s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.526s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.627s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.676s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.679s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.686s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.756s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.973s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.310s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.435s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.453s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.454s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.476s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.476s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.476s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.476s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.494s] -- Found PythonExtra: .so  
+[1.537s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.556s] -- Added test 'lint_cmake' to check CMake code style
+[1.557s] -- Added test 'xmllint' to check XML markup files
+[1.559s] -- Configuring done
+[1.594s] -- Generating done
+[1.604s] -- Build files have been written to: /home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces
+[1.612s] Invoked command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ /usr/bin/cmake /home/ethereal/rm_2025/rmul_nav_2025/src/Action/navigator_interfaces -DCMAKE_INSTALL_PREFIX=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces
+[1.613s] Invoking command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ /usr/bin/cmake --build /home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces -- -j20 -l20
+[1.638s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.644s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.651s] [  6%] Built target ament_cmake_python_copy_navigator_interfaces
+[1.881s] running egg_info
+[1.882s] creating navigator_interfaces.egg-info
+[1.882s] writing navigator_interfaces.egg-info/PKG-INFO
+[1.882s] writing dependency_links to navigator_interfaces.egg-info/dependency_links.txt
+[1.883s] writing top-level names to navigator_interfaces.egg-info/top_level.txt
+[1.883s] writing manifest file 'navigator_interfaces.egg-info/SOURCES.txt'
+[1.886s] reading manifest file 'navigator_interfaces.egg-info/SOURCES.txt'
+[1.887s] writing manifest file 'navigator_interfaces.egg-info/SOURCES.txt'
+[1.907s] [  6%] Built target navigator_interfaces__cpp
+[1.916s] [  9%] Built target ament_cmake_python_build_navigator_interfaces_egg
+[1.916s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.916s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.917s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.928s] [ 19%] [32mBuilding C object CMakeFiles/navigator_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navigator_interfaces/msg/detail/navigate__functions.c.o[0m
+[1.986s] [ 22%] [32m[1mLinking C shared library libnavigator_interfaces__rosidl_generator_c.so[0m
+[2.022s] [ 22%] Built target navigator_interfaces__rosidl_generator_c
+[2.029s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.030s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.030s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.172s] [ 35%] [32mBuilding CXX object CMakeFiles/navigator_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigator_interfaces/msg/navigate__type_support.cpp.o[0m
+[2.182s] [ 38%] [32mBuilding CXX object CMakeFiles/navigator_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigator_interfaces/msg/detail/navigate__type_support.cpp.o[0m
+[2.203s] [ 41%] [32mBuilding CXX object CMakeFiles/navigator_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigator_interfaces/msg/detail/dds_fastrtps/navigate__type_support.cpp.o[0m
+[2.284s] [ 45%] [32mBuilding CXX object CMakeFiles/navigator_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigator_interfaces/msg/navigate__type_support.cpp.o[0m
+[2.305s] [ 48%] [32mBuilding C object CMakeFiles/navigator_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigator_interfaces/msg/detail/navigate__type_support.c.o[0m
+[2.319s] [ 51%] [32m[1mLinking CXX shared library libnavigator_interfaces__rosidl_typesupport_c.so[0m
+[2.321s] [ 54%] [32mBuilding CXX object CMakeFiles/navigator_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigator_interfaces/msg/detail/navigate__type_support_c.cpp.o[0m
+[2.342s] [ 58%] [32m[1mLinking C shared library libnavigator_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.368s] [ 58%] Built target navigator_interfaces__rosidl_typesupport_c
+[2.378s] [ 58%] Built target navigator_interfaces__rosidl_typesupport_introspection_c
+[2.427s] [ 61%] [32m[1mLinking CXX shared library libnavigator_interfaces__rosidl_typesupport_cpp.so[0m
+[2.462s] [ 61%] Built target navigator_interfaces__rosidl_typesupport_cpp
+[2.552s] [ 64%] [32m[1mLinking CXX shared library libnavigator_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.568s] [ 67%] [32m[1mLinking CXX shared library libnavigator_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.601s] [ 67%] Built target navigator_interfaces__rosidl_typesupport_introspection_cpp
+[2.617s] [ 70%] [32m[1mLinking CXX shared library libnavigator_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.634s] [ 70%] Built target navigator_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.674s] [ 70%] Built target navigator_interfaces__rosidl_typesupport_fastrtps_c
+[2.688s] [ 70%] Built target navigator_interfaces
+[2.700s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.962s] [ 74%] Built target navigator_interfaces__py
+[2.975s] [ 77%] [32mBuilding C object CMakeFiles/navigator_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigator_interfaces/msg/_navigate_s.c.o[0m
+[3.052s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/navigator_interfaces/libnavigator_interfaces__rosidl_generator_py.so[0m
+[3.081s] [ 80%] Built target navigator_interfaces__rosidl_generator_py
+[3.094s] [ 83%] [32mBuilding C object CMakeFiles/navigator_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/navigator_interfaces/_navigator_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.094s] [ 87%] [32mBuilding C object CMakeFiles/navigator_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/navigator_interfaces/_navigator_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.096s] [ 90%] [32mBuilding C object CMakeFiles/navigator_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/navigator_interfaces/_navigator_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.197s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.197s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.197s] [100%] [32m[1mLinking C shared library rosidl_generator_py/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.226s] [100%] Built target navigator_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.226s] [100%] Built target navigator_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.226s] [100%] Built target navigator_interfaces__rosidl_typesupport_c__pyext
+[3.235s] Invoked command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ /usr/bin/cmake --build /home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces -- -j20 -l20
+[3.236s] Invoking command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ /usr/bin/cmake --install /home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces
+[3.241s] -- Install configuration: ""
+[3.242s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/ament_index/resource_index/rosidl_interfaces/navigator_interfaces
+[3.242s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces
+[3.242s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg
+[3.243s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail
+[3.243s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__type_support.h
+[3.243s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__functions.c
+[3.243s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__functions.h
+[3.243s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__struct.h
+[3.243s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/navigate.h
+[3.243s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.244s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/environment/library_path.sh
+[3.244s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/environment/library_path.dsv
+[3.244s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_generator_c.so
+[3.244s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_generator_c.so" to ""
+[3.244s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces
+[3.244s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg
+[3.244s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail
+[3.244s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__rosidl_typesupport_fastrtps_c.h
+[3.244s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.245s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.245s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.245s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces
+[3.245s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg
+[3.245s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/navigate.hpp
+[3.245s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail
+[3.245s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__traits.hpp
+[3.245s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__builder.hpp
+[3.245s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__struct.hpp
+[3.246s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__type_support.hpp
+[3.246s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.246s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces
+[3.246s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg
+[3.246s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail
+[3.246s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/dds_fastrtps
+[3.246s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp
+[3.246s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.247s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.247s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.247s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces
+[3.247s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg
+[3.247s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail
+[3.247s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__type_support.c
+[3.247s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__rosidl_typesupport_introspection_c.h
+[3.247s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.248s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_introspection_c.so
+[3.248s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.248s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_c.so
+[3.248s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_c.so" to ""
+[3.248s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces
+[3.248s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg
+[3.248s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail
+[3.248s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__rosidl_typesupport_introspection_cpp.hpp
+[3.249s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/include/navigator_interfaces/navigator_interfaces/msg/detail/navigate__type_support.cpp
+[3.249s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.249s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.249s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_cpp.so
+[3.249s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.249s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/environment/pythonpath.sh
+[3.249s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/environment/pythonpath.dsv
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces-0.0.0-py3.10.egg-info
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/_navigator_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/libnavigator_interfaces__rosidl_generator_py.so
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/msg
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/msg/_navigate.py
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/msg/_navigate_s.c
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/msg/__init__.py
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/_navigator_interfaces_s.ep.rosidl_typesupport_c.c
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/__init__.py
+[3.250s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/_navigator_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.277s] Listing '/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces'...
+[3.277s] Compiling '/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/__init__.py'...
+[3.277s] Listing '/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/msg'...
+[3.277s] Compiling '/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/msg/__init__.py'...
+[3.278s] Compiling '/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/msg/_navigate.py'...
+[3.281s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.282s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.282s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.282s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.282s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.282s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages/navigator_interfaces/navigator_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.282s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_generator_py.so
+[3.283s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib/libnavigator_interfaces__rosidl_generator_py.so" to ""
+[3.283s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/msg/Navigate.idl
+[3.283s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/msg/Navigate.msg
+[3.283s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/ament_index/resource_index/package_run_dependencies/navigator_interfaces
+[3.283s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/ament_index/resource_index/parent_prefix_path/navigator_interfaces
+[3.283s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/environment/ament_prefix_path.sh
+[3.283s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/environment/ament_prefix_path.dsv
+[3.284s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/environment/path.sh
+[3.284s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/environment/path.dsv
+[3.284s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/local_setup.bash
+[3.284s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/local_setup.sh
+[3.284s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/local_setup.zsh
+[3.284s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/local_setup.dsv
+[3.284s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/package.dsv
+[3.284s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/ament_index/resource_index/packages/navigator_interfaces
+[3.285s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/export_navigator_interfaces__rosidl_generator_cExport.cmake
+[3.285s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/export_navigator_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.285s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/export_navigator_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.285s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/export_navigator_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.285s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/export_navigator_interfaces__rosidl_generator_cppExport.cmake
+[3.285s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/export_navigator_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.285s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/export_navigator_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.285s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/navigator_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.286s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/navigator_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.286s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/navigator_interfaces__rosidl_typesupport_cExport.cmake
+[3.286s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/navigator_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.286s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/navigator_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.286s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/navigator_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.286s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/navigator_interfaces__rosidl_typesupport_cppExport.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/navigator_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/export_navigator_interfaces__rosidl_generator_pyExport.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/export_navigator_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/navigator_interfacesConfig.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/cmake/navigator_interfacesConfig-version.cmake
+[3.287s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/share/navigator_interfaces/package.xml
+[3.288s] Invoked command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ /usr/bin/cmake --install /home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces

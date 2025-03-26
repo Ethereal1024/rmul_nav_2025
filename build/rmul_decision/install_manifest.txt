@@ -1,0 +1,15 @@
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/ament_index/resource_index/package_run_dependencies/rmul_decision
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/ament_index/resource_index/parent_prefix_path/rmul_decision
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/environment/ament_prefix_path.sh
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/environment/ament_prefix_path.dsv
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/environment/path.sh
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/environment/path.dsv
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/local_setup.bash
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/local_setup.sh
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/local_setup.zsh
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/local_setup.dsv
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/package.dsv
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/ament_index/resource_index/packages/rmul_decision
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/cmake/rmul_decisionConfig.cmake
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/cmake/rmul_decisionConfig-version.cmake
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/package.xml

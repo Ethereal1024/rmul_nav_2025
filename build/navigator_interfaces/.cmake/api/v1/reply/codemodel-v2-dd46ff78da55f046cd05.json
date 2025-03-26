@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-53fcb02cb102723d4730.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "navigator_interfaces__py",
+					"jsonFile" : "directory-navigator_interfaces__py-68cf6e4e1f46aae2cdd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces/navigator_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "navigator_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_navigator_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_navigator_interfaces_egg-e38ad4204f1fadc42648.json",
+					"name" : "ament_cmake_python_build_navigator_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_navigator_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_navigator_interfaces-93e0fe707362fa0733aa.json",
+					"name" : "ament_cmake_python_copy_navigator_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces-1c35d35e165c33a219df.json",
+					"name" : "navigator_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__cpp-57845c1d1a43038c78dd.json",
+					"name" : "navigator_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "navigator_interfaces__py::@ab7058293eb9c923bc7a",
+					"jsonFile" : "target-navigator_interfaces__py-ec1cbc92e51bfcf90dc5.json",
+					"name" : "navigator_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__rosidl_generator_c-303ce5d1f81a69b08013.json",
+					"name" : "navigator_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__rosidl_generator_py-cc2c7e93192d8d220b31.json",
+					"name" : "navigator_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__rosidl_typesupport_c-bff905865f687e9279f3.json",
+					"name" : "navigator_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__rosidl_typesupport_c__pyext-46cd797cf7e86b321848.json",
+					"name" : "navigator_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__rosidl_typesupport_cpp-9380a26c678a600344ca.json",
+					"name" : "navigator_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__rosidl_typesupport_fastrtps_c-87e4d4449914ed21785a.json",
+					"name" : "navigator_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__rosidl_typesupport_fastrtps_c__pyext-2e86182eefc82a2c9b44.json",
+					"name" : "navigator_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__rosidl_typesupport_fastrtps_cpp-aaf2d332341cbece8070.json",
+					"name" : "navigator_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__rosidl_typesupport_introspection_c-5fe19be63a32ca3b8aed.json",
+					"name" : "navigator_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__rosidl_typesupport_introspection_c__pyext-c74e8dba6aecfee64c04.json",
+					"name" : "navigator_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces__rosidl_typesupport_introspection_cpp-4907c8d6b29181f54734.json",
+					"name" : "navigator_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_interfaces_uninstall-add1067c6f0bafe454a8.json",
+					"name" : "navigator_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-492b91d728339a93be1f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces",
+		"source" : "/home/ethereal/rm_2025/rmul_nav_2025/src/Action/navigator_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

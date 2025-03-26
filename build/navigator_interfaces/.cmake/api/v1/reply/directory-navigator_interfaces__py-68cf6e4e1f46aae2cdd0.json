@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "navigator_interfaces__py",
+		"source" : "/home/ethereal/rm_2025/rmul_nav_2025/build/navigator_interfaces/navigator_interfaces__py"
+	}
+}

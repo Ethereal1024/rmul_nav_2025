@@ -1,0 +1,4 @@
+source;share/rmul_decision/local_setup.bash
+source;share/rmul_decision/local_setup.dsv
+source;share/rmul_decision/local_setup.sh
+source;share/rmul_decision/local_setup.zsh
