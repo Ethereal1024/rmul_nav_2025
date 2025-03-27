@@ -22,6 +22,14 @@ public:
         return Point(k * x, k * y);
     }
 
+    Point operator-(const Point& another) {
+        return Point(x - another.x, y - another.y);
+    }
+
+    double norm() {
+        return x * x + y * y;
+    }
+
     double x;
     double y;
 };

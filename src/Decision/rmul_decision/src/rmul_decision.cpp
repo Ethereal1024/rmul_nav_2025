@@ -25,6 +25,43 @@ FSMCommander::FSMCommander(const rclcpp::NodeOptions& options) : Node("fsm_comma
 }
 
 void FSMCommander::timer_callback() {
+    switch (state_) {
+    case State::IDLE:
+        if (game_.started && self_.hp == FULL_HP) {
+            if (game_.event == Event::UNOCCUPIED) {
+                next_state_ = State::OCCUPY;
+            } else {
+                next_state_ = State::SNIPE;
+            }
+        }
+        break;
+    case State::OCCUPY:
+        if (self_.hp < 0.35 * FULL_HP) {
+            next_state_ = State::ESCAPE;
+        } else {
+            next_state_ = State::OCCUPY;
+        }
+        break;
+    case State::ESCAPE:
+        if ((self_.position - HOME).norm() < 0.05) {
+            next_state_ = State::IDLE;
+        } else {
+            next_state_ = State::ESCAPE;
+        }
+        break;
+    case State::SNIPE:
+        if (self_.hp < 0.35 * FULL_HP) {
+            next_state_ = State::ESCAPE;
+        } else if (game_.event == Event::UNOCCUPIED) {
+            next_state_ = State::OCCUPY;
+        } else {
+            next_state_ = State::SNIPE;
+        }
+        break;
+    default:
+        next_state_ = state_;
+    }
+
     if (reset_) {
         state_ = State::IDLE;
         next_state_ = State::IDLE;
@@ -40,29 +77,26 @@ void FSMCommander::timer_callback() {
 
     switch (state_) {
     case State::IDLE:
-        if (game_.started && self_.hp == FULL_HP) {
-            if (game_.event == Event::UNOCCUPIED) {
-                next_state_ = State::OCCUPY;
-            } else {
-                next_state_ = State::SNIPE;
-            }
-        }
+        idel_exec();
         break;
     case State::OCCUPY:
-        if (self_.hp < 0.4 * FULL_HP) {
-            next_state_ = State::ESCAPE;
-        } else {
-            next_state_ = State::OCCUPY;
-        }
-        break;
+        ideling_ = false;
+        occupy_exec();
     case State::ESCAPE:
-        
+        ideling_ = false;
+        escape_exec();
+    case State::SNIPE:
+        ideling_ = false;
+        snipe_exec();
+    default:
+        break;
     }
 }
 
 void FSMCommander::idel_exec() {
     if (!ideling_)
         nav_to_point(self_.position);
+    ideling_ = true;
 }
 
 void FSMCommander::occupy_exec() {
