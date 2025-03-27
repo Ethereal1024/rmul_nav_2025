@@ -1,0 +1,51 @@
+[0.012s] Invoking command in '/home/ethereal/rm_2025/rmul_nav_2025/build/rmul_decision': AMENT_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/pb_rm_interfaces:/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/pb_rm_interfaces:/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/pb_rm_interfaces/lib:/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ PYTHONPATH=/home/ethereal/rm_2025/rmul_nav_2025/install/pb_rm_interfaces/local/lib/python3.10/dist-packages:/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ethereal/rm_2025/rmul_nav_2025/src/Decision/rmul_decision -DCMAKE_INSTALL_PREFIX=/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.162s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.224s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.230s] -- Detecting CXX compile features
+[0.230s] -- Detecting CXX compile features - done
+[0.232s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.349s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.563s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.568s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.578s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.656s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.659s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.730s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.752s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.797s] -- Looking for pthread.h
+[0.844s] -- Looking for pthread.h - found
+[0.845s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.893s] -- Found Threads: TRUE  
+[1.022s] [31mCMake Error at /opt/ros/humble/share/rclcpp_components/cmake/rclcpp_components_register_node.cmake:72 (add_executable):
+[1.022s]   add_executable cannot create target "rmul_decision_node" because another
+[1.022s]   target with the same name already exists.  The existing target is an
+[1.022s]   executable created in source directory
+[1.022s]   "/home/ethereal/rm_2025/rmul_nav_2025/src/Decision/rmul_decision".  See
+[1.022s]   documentation for policy CMP0002 for more details.
+[1.022s] Call Stack (most recent call first):
+[1.022s]   CMakeLists.txt:35 (rclcpp_components_register_node)
+[1.022s] 
+[1.023s] [0m
+[1.023s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.048s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.048s] -- Configured cppcheck include dirs: /home/ethereal/rm_2025/rmul_nav_2025/src/Decision/rmul_decision/include
+[1.048s] -- Configured cppcheck exclude dirs and/or files: 
+[1.049s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.049s] -- Configured cpplint exclude dirs and/or files: 
+[1.050s] -- Added test 'lint_cmake' to check CMake code style
+[1.051s] -- Added test 'xmllint' to check XML markup files
+[1.056s] -- Configuring incomplete, errors occurred!
+[1.056s] See also "/home/ethereal/rm_2025/rmul_nav_2025/build/rmul_decision/CMakeFiles/CMakeOutput.log".
+[1.064s] Invoked command in '/home/ethereal/rm_2025/rmul_nav_2025/build/rmul_decision' returned '1': AMENT_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/pb_rm_interfaces:/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/pb_rm_interfaces:/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/pb_rm_interfaces/lib:/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ PYTHONPATH=/home/ethereal/rm_2025/rmul_nav_2025/install/pb_rm_interfaces/local/lib/python3.10/dist-packages:/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ethereal/rm_2025/rmul_nav_2025/src/Decision/rmul_decision -DCMAKE_INSTALL_PREFIX=/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision

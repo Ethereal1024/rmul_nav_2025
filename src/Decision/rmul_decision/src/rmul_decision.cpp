@@ -8,6 +8,8 @@ FSMCommander::FSMCommander(const rclcpp::NodeOptions& options) : Node("fsm_comma
     game_ = {false, Event::UNOCCUPIED};
     self_ = {Point(0, 0), FULL_HP};
 
+    fetch_params();
+
     event_data_sub_ = this->create_subscription<pb_rm_interfaces::msg::EventData>(
         "referee/event_data", 10, std::bind(&FSMCommander::event_data_callback, this, std::placeholders::_1));
     robot_status_sub_ = this->create_subscription<pb_rm_interfaces::msg::RobotStatus>(
@@ -162,6 +164,31 @@ void FSMCommander::nav_to_point(const Point& point) {
     nav_to_point(point.x, point.y);
 }
 
+void FSMCommander::fetch_params() {
+    fetch_point_list(OCCUPY_POINTS, "occupy_points");
+    fetch_point_list(SNIPE_POINTS, "snipe_points");
+
+    this->declare_parameter("home_point", {});
+    auto home_point = this->get_parameter("home_point").as_double_array();
+    if (!home_point.empty()) {
+        HOME = Point(home_point[0], home_point[1]);
+    }
+
+    this->declare_parameter("full_hp", FULL_HP);
+    FULL_HP = this->get_parameter("full_hp").as_int();
+}
+
+void FSMCommander::fetch_point_list(std::vector<Point>& point_list, const std::string& param_name) {
+    this->declare_parameter(param_name, {});
+    auto values = this->get_parameter(param_name).as_double_array();
+    std::vector<Point> points;
+    for (size_t i = 0; i < values.size() - 1; i += 2) {
+        points.push_back(Point(values[i], values[i + 1]));
+    }
+    if (!points.empty()) {
+        point_list = points;
+    }
+}
 
 #include "rclcpp_components/register_node_macro.hpp"
 RCLCPP_COMPONENTS_REGISTER_NODE(FSMCommander)

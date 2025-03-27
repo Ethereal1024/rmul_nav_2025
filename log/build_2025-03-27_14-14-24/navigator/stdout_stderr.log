@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target navigator[0m
+[ 50%] Built target navigator
+[35m[1mConsolidate compiler generated dependencies of target navigator_node[0m
+[100%] Built target navigator_node
+-- Install configuration: ""
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/include
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/include/navigator
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/include/navigator/navigator.hpp
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/library_path.sh
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/library_path.dsv
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/lib/libnavigator.so
+-- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator/lib/libnavigator.so" to ""
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/lib/navigator/navigator_node
+-- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator/lib/navigator/navigator_node" to ""
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch/launch.py
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/ament_index/resource_index/package_run_dependencies/navigator
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/ament_index/resource_index/parent_prefix_path/navigator
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/ament_prefix_path.sh
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/ament_prefix_path.dsv
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/path.sh
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/path.dsv
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/local_setup.bash
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/local_setup.sh
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/local_setup.zsh
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/local_setup.dsv
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/package.dsv
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/ament_index/resource_index/packages/navigator
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/navigatorConfig.cmake
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/navigatorConfig-version.cmake
+-- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/package.xml
+-- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch
+-- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch/launch.py

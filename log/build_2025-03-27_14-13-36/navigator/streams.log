@@ -1,0 +1,54 @@
+[0.014s] Invoking command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator': AMENT_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ PYTHONPATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ethereal/rm_2025/rmul_nav_2025/src/Action/navigator -DCMAKE_INSTALL_PREFIX=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.097s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.147s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.155s] -- Detecting CXX compiler ABI info
+[0.213s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.222s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.346s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.552s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.556s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.563s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.635s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.637s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.718s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.742s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.791s] -- Looking for pthread.h
+[0.859s] -- Looking for pthread.h - found
+[0.859s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.932s] -- Found Threads: TRUE  
+[1.219s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.222s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.222s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.347s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.371s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.371s] -- Configured cppcheck include dirs: /home/ethereal/rm_2025/rmul_nav_2025/src/Action/navigator/include
+[1.371s] -- Configured cppcheck exclude dirs and/or files: 
+[1.372s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.372s] -- Configured cpplint exclude dirs and/or files: 
+[1.372s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.373s] -- Added test 'lint_cmake' to check CMake code style
+[1.373s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.374s] -- Added test 'xmllint' to check XML markup files
+[1.379s] -- Configuring done
+[1.411s] -- Generating done
+[1.420s] -- Build files have been written to: /home/ethereal/rm_2025/rmul_nav_2025/build/navigator
+[1.432s] Invoked command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator' returned '0': AMENT_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ PYTHONPATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ethereal/rm_2025/rmul_nav_2025/src/Action/navigator -DCMAKE_INSTALL_PREFIX=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator
+[1.435s] Invoking command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator': AMENT_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ PYTHONPATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ethereal/rm_2025/rmul_nav_2025/build/navigator -- -j20 -l20
+[1.481s] [ 25%] [32mBuilding CXX object CMakeFiles/navigator.dir/src/navigator.cpp.o[0m
+[12.514s] [ 50%] [32m[1mLinking CXX shared library libnavigator.so[0m
+[13.139s] [ 50%] Built target navigator
+[13.153s] [ 75%] [32mBuilding CXX object CMakeFiles/navigator_node.dir/src/node_exec.cpp.o[0m
+[15.602s] [100%] [32m[1mLinking CXX executable navigator_node[0m
+[15.821s] [100%] Built target navigator_node

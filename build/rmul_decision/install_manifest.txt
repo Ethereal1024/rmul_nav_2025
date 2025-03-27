@@ -1,3 +1,9 @@
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/lib/rmul_decision/rmul_decision_node
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/include/rmul_decision/rmul_decision.hpp
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/environment/library_path.sh
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/environment/library_path.dsv
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/lib/librmul_decision.so
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/launch/rmul_decision_launch.py
 /home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/ament_index/resource_index/package_run_dependencies/rmul_decision
 /home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/ament_index/resource_index/parent_prefix_path/rmul_decision
 /home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/environment/ament_prefix_path.sh
@@ -10,6 +16,12 @@
 /home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/local_setup.dsv
 /home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/package.dsv
 /home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/ament_index/resource_index/packages/rmul_decision
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/ament_index/resource_index/rclcpp_components/rmul_decision
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/cmake/ament_cmake_export_libraries-extras.cmake
 /home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/cmake/rmul_decisionConfig.cmake
 /home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/cmake/rmul_decisionConfig-version.cmake
 /home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/package.xml
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/launch/rmul_decision_launch.py
+/home/ethereal/rm_2025/rmul_nav_2025/install/rmul_decision/share/rmul_decision/config/rmul_decision_params.yaml

@@ -4,3 +4,5 @@ navigator_interfaces.egg-info/PKG-INFO
 navigator_interfaces.egg-info/SOURCES.txt
 navigator_interfaces.egg-info/dependency_links.txt
 navigator_interfaces.egg-info/top_level.txt
+navigator_interfaces/msg/__init__.py
+navigator_interfaces/msg/_navigate.py

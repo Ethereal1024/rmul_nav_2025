@@ -1,0 +1,40 @@
+[0.031s] Invoking command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator': AMENT_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ PYTHONPATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ethereal/rm_2025/rmul_nav_2025/build/navigator -- -j20 -l20
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target navigator[0m
+[0.075s] [ 50%] Built target navigator
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target navigator_node[0m
+[0.097s] [100%] Built target navigator_node
+[0.104s] Invoked command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator' returned '0': AMENT_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ PYTHONPATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ethereal/rm_2025/rmul_nav_2025/build/navigator -- -j20 -l20
+[0.106s] Invoking command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator': AMENT_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ PYTHONPATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ethereal/rm_2025/rmul_nav_2025/build/navigator
+[0.110s] -- Install configuration: ""
+[0.110s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/include
+[0.111s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/include/navigator
+[0.111s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/include/navigator/navigator.hpp
+[0.112s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/library_path.sh
+[0.112s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/library_path.dsv
+[0.112s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/lib/libnavigator.so
+[0.120s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator/lib/libnavigator.so" to ""
+[0.120s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/lib/navigator/navigator_node
+[0.120s] -- Set runtime path of "/home/ethereal/rm_2025/rmul_nav_2025/install/navigator/lib/navigator/navigator_node" to ""
+[0.121s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch
+[0.121s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch/launch.py
+[0.123s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/ament_index/resource_index/package_run_dependencies/navigator
+[0.124s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/ament_index/resource_index/parent_prefix_path/navigator
+[0.124s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/ament_prefix_path.sh
+[0.124s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/ament_prefix_path.dsv
+[0.125s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/path.sh
+[0.125s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/path.dsv
+[0.125s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/local_setup.bash
+[0.126s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/local_setup.sh
+[0.126s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/local_setup.zsh
+[0.127s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/local_setup.dsv
+[0.127s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/package.dsv
+[0.127s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/ament_index/resource_index/packages/navigator
+[0.128s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.128s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.129s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/ament_cmake_export_libraries-extras.cmake
+[0.129s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/navigatorConfig.cmake
+[0.129s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/navigatorConfig-version.cmake
+[0.129s] -- Installing: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/package.xml
+[0.129s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch
+[0.130s] -- Up-to-date: /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch/launch.py
+[0.132s] Invoked command in '/home/ethereal/rm_2025/rmul_nav_2025/build/navigator' returned '0': AMENT_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ PYTHONPATH=/home/ethereal/rm_2025/rmul_nav_2025/install/navigator_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ethereal/rm_2025/rmul_nav_2025/build/navigator

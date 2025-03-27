@@ -1,0 +1,14 @@
+rmul_decision:
+  ros__parameters:
+    occupy_points: 
+      [1, 2,
+       3, 4,
+       5, 6]
+    
+    snipe_points:
+      [6, 5,
+       4, 3,
+       2, 1]
+    
+    home_point: [2, 4]
+    full_hp: 600

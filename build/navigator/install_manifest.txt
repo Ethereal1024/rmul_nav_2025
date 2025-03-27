@@ -3,7 +3,7 @@
 /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/library_path.dsv
 /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/lib/libnavigator.so
 /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/lib/navigator/navigator_node
-/home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch/launch.py
+/home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch/rm_decision_navigator_launch.py
 /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/ament_index/resource_index/package_run_dependencies/navigator
 /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/ament_index/resource_index/parent_prefix_path/navigator
 /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/environment/ament_prefix_path.sh
@@ -22,4 +22,4 @@
 /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/navigatorConfig.cmake
 /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/cmake/navigatorConfig-version.cmake
 /home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/package.xml
-/home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch/launch.py
+/home/ethereal/rm_2025/rmul_nav_2025/install/navigator/share/navigator/launch/rm_decision_navigator_launch.py
