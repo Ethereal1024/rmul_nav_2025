@@ -1,8 +1,12 @@
 #include "fsm_commander.hpp"
 
 FSMCommander::FSMCommander(const rclcpp::NodeOptions& options) : Node("fsm_commander", options) {
+    state_ = State::IDLE;
+    next_state_ = State::IDLE;
+    reset_ = true;
+
     game_ = {false, Event::UNOCCUPIED};
-    self_ = {Point(0, 0), 600};
+    self_ = {Point(0, 0), FULL_HP};
     // enemy_ = {false, Point(0, 0)};
 
     event_data_sub_ = this->create_subscription<pb_rm_interfaces::msg::EventData>(
@@ -17,10 +21,48 @@ FSMCommander::FSMCommander(const rclcpp::NodeOptions& options) : Node("fsm_comma
     timer_ = this->create_wall_timer(std::chrono::seconds(4), std::bind(&FSMCommander::timer_callback, this));
 
     index_ = 0;
+    ideling_ = true;
+}
+
+void FSMCommander::timer_callback() {
+    if (reset_) {
+        state_ = State::IDLE;
+        next_state_ = State::IDLE;
+        game_ = {false, Event::UNOCCUPIED};
+        self_ = {Point(0, 0), 600};
+        index_ = 0;
+        ideling_ = true;
+
+        reset_ = false;
+    } else {
+        state_ = next_state_;
+    }
+
+    switch (state_) {
+    case State::IDLE:
+        if (game_.started && self_.hp == FULL_HP) {
+            if (game_.event == Event::UNOCCUPIED) {
+                next_state_ = State::OCCUPY;
+            } else {
+                next_state_ = State::SNIPE;
+            }
+        }
+        break;
+    case State::OCCUPY:
+        if (self_.hp < 0.4 * FULL_HP) {
+            next_state_ = State::ESCAPE;
+        } else {
+            next_state_ = State::OCCUPY;
+        }
+        break;
+    case State::ESCAPE:
+        
+    }
 }
 
 void FSMCommander::idel_exec() {
-    return;
+    if (!ideling_)
+        nav_to_point(self_.position);
 }
 
 void FSMCommander::occupy_exec() {
