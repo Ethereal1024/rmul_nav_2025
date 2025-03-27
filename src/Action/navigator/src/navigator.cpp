@@ -2,7 +2,7 @@
 
 Navigator::Navigator(const rclcpp::NodeOptions& options) : Node("navigator", options) {
 
-    this->declare_parameter<std::string>("navigator_label", "red_standard_robot1");
+    this->declare_parameter<std::string>("navigator_label", "");
     label_ = this->get_parameter("navigator_label").as_string();
 
     std::string attachment = label_;
