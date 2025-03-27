@@ -13,8 +13,10 @@ FSMCommander::FSMCommander(const rclcpp::NodeOptions& options) : Node("fsm_comma
         "referee/event_data", 10, std::bind(&FSMCommander::event_data_callback, this, std::placeholders::_1));
     robot_status_sub_ = this->create_subscription<pb_rm_interfaces::msg::RobotStatus>(
         "referee/robot_status", 10, std::bind(&FSMCommander::robot_status_callback, this, std::placeholders::_1));
+    game_status_pub_ = this->create_subscription<pb_rm_interfaces::msg::GameStatus>(
+        "referee/game_status", 10, std::bind(&FSMCommander::game_status_callback, this, std::placeholders::_1));
     pose_sub_ = this->create_subscription<geometry_msgs::msg::PoseStamped>(
-        "referee/robot_status", 10, std::bind(&FSMCommander::pose_callback, this, std::placeholders::_1));
+        "navigator/current_pose", 10, std::bind(&FSMCommander::pose_callback, this, std::placeholders::_1));
 
     nav_pub_ = this->create_publisher<navigator_interfaces::msg::Navigate>("to_navigator", 10);
 
@@ -132,6 +134,10 @@ void FSMCommander::event_data_callback(const pb_rm_interfaces::msg::EventData::S
 
 void FSMCommander::robot_status_callback(const pb_rm_interfaces::msg::RobotStatus::SharedPtr msg) {
     self_.hp = msg->current_hp;
+}
+
+void FSMCommander::game_status_callback(const pb_rm_interfaces::msg::GameStatus::SharedPtr msg) {
+    game_.started = (msg->game_progress == msg->RUNNING);
 }
 
 void FSMCommander::pose_callback(const geometry_msgs::msg::PoseStamped::SharedPtr msg) {
