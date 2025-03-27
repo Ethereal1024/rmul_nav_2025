@@ -1,4 +1,4 @@
-#include "fsm_commander.hpp"
+#include "rmul_decision/rmul_decision.hpp"
 
 FSMCommander::FSMCommander(const rclcpp::NodeOptions& options) : Node("fsm_commander", options) {
     state_ = State::IDLE;
@@ -7,7 +7,6 @@ FSMCommander::FSMCommander(const rclcpp::NodeOptions& options) : Node("fsm_comma
 
     game_ = {false, Event::UNOCCUPIED};
     self_ = {Point(0, 0), FULL_HP};
-    // enemy_ = {false, Point(0, 0)};
 
     event_data_sub_ = this->create_subscription<pb_rm_interfaces::msg::EventData>(
         "referee/event_data", 10, std::bind(&FSMCommander::event_data_callback, this, std::placeholders::_1));
@@ -162,3 +161,7 @@ void FSMCommander::nav_to_point(const double& x, const double& y) {
 void FSMCommander::nav_to_point(const Point& point) {
     nav_to_point(point.x, point.y);
 }
+
+
+#include "rclcpp_components/register_node_macro.hpp"
+RCLCPP_COMPONENTS_REGISTER_NODE(FSMCommander)

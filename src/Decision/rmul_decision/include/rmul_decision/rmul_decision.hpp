@@ -81,13 +81,8 @@ private:
         int hp;
     } self_;
 
-    // struct Enemy {
-    //     bool tracking;
-    //     Point position;
-    // } enemy_;
-
-    std::vector<const Point> OCCUPY_POINTS = {Point(1, 2), Point(3, 4), Point(5, 6)};
-    std::vector<const Point> SNIPE_POINTS = {Point(9, 10), Point(11, 12), Point(13, 14)};
+    std::vector<Point> OCCUPY_POINTS = {Point(1, 2), Point(3, 4), Point(5, 6)};
+    std::vector<Point> SNIPE_POINTS = {Point(9, 10), Point(11, 12), Point(13, 14)};
     const Point HOME = Point(7, 8);
     const int FULL_HP = 600;
 
